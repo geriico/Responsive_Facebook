@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color:rgb(42, 40, 40) ;
+    color: azure;}
+
+header {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    justify-content: center;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgb(54, 53, 53);
+    font-size: 1.4em
+    
+}
+header section{
+    justify-content: center;
+    align-items: center;
+}
+header *{
+    display: flex;
+    flex-direction: row;
+  
+}
+    
+.navbar{
+width: 100%;
+margin: auto;
+padding: 10px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 20px;
+
+
+}
+.navbar ul li{
+list-style: none;
+margin:  20px; 
+position: relative;
+}
+input{
+   width: 250px;
+   height: 30px;
+   background-color: rgb(66, 68, 68);
+   font-size: medium;
+   margin: 10px; 
+
+}
+
+.lsidecorner{
+    height: 70%;
+    width: 40vh;
+    top: 10%;
+    left: 2%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    flex-direction: column;
+    align-content: flex-start;
+    font-size: 20px;
+    font-family: arial;
+    float: left;
+}
+.lsideIcon{
+    padding: 2px 5px 2px 0px;
+    margin: 2px 5px 2px 0px;
+    line-height: 40px;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+main{
+    height: 100%;
+    color: #e4e6eb;
+    margin-left: 380px;
+    margin-right: 280px;
+    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+}
+main div{
+    min-height: 150px;
+    max-height: 600px;
+    width: 80%;
+    background-color: #242526;
+    color: #e4e6eb;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
+    margin-left: 30px;
+    justify-content: space-between;
+    float: left;
+}
+
+
+.rsidecorner div , h3{
+    margin-left: 85%;
+}
+
+@media only screen and (max-width: 600px){
+    .lsidecorner{
+        visibility: hidden;
+    }
+    .rsidecorner {
+        visibility: hidden;
+    }
+    main div{
+        min-height: 100px;
+        max-height: 300px;
+        width: 40%;
+        background-color: #242526;
+        color: #e4e6eb;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding: 5px;
+        align-items: center;
+        margin-left: 10px;
+        justify-content: space-between;
+        float: left;
+
+    }
+}
+@media only screen and (max-width: 992px){
+    .lsidecorner{
+        visibility: hidden;
+    }
+    .rsidecorner {
+        visibility: hidden;
+    }
+}
+@media only screen and (min-width: 1200px){
+    eader {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 56px;
+        justify-content: center;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 5px rgb(54, 53, 53);
+        font-size: 1.4em
+        
+    }
+    header section{
+        justify-content: center;
+        align-items: center;
+    }
+    header *{
+        display: flex;
+        flex-direction: row;
+      
+    }
+        
+    .navbar{
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    
+    
+    }
+    .navbar ul li{
+    list-style: none;
+    margin:  20px; 
+    position: relative;
+    }
+    input{
+       width: 250px;
+       height: 30px;
+       background-color: rgb(66, 68, 68);
+       font-size: medium;
+       margin: 10px; 
+    
+    }
+    
+    .lsidecorner{
+        height: 70%;
+        width: 40vh;
+        top: 10%;
+        left: 2%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: left;
+        flex-direction: column;
+        align-content: flex-start;
+        font-size: 20px;
+        font-family: arial;
+        float: left;
+    }
+    .lsideIcon{
+        padding: 2px 5px 2px 0px;
+        margin: 2px 5px 2px 0px;
+        line-height: 40px;
+        align-items: flex-start;
+        font-size: 20px;
+    }
+    
+    main{
+        height: 100%;
+        color: #e4e6eb;
+        margin-left: 380px;
+        margin-right: 280px;
+        padding: 20px 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    main div{
+        min-height: 150px;
+        max-height: 600px;
+        width: 80%;
+        background-color: #242526;
+        color: #e4e6eb;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding: 10px;
+        align-items: center;
+        margin-left: 30px;
+        justify-content: space-between;
+        float: left;
+    }
+    
+    
+    .rsidecorner div , h3{
+        margin-left: 85%;
+    }
+}
